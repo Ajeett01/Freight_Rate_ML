@@ -1,0 +1,13 @@
+{
+  "notebook": "notebooks/freight_rate_prediction_clean.ipynb",
+  "total_cells": 28,
+  "code_cells": 16,
+  "code_lines": 267,
+  "fresh_kernel_execution": "passed",
+  "final_predictions": 12000,
+  "december_predictions": 31,
+  "maximum_saved_csv_prediction_difference": 0.0,
+  "official_scorer": "passed",
+  "original_notebook_model_solution_scorer_and_csvs": "unchanged",
+  "optional_retraining": "not executed; default uses archived model"
+}

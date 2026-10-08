@@ -1,0 +1,38 @@
+{
+  "parameters": {
+    "task_type": "GPU",
+    "devices": "0",
+    "depth": 6,
+    "learning_rate": 0.05,
+    "l2_leaf_reg": 5,
+    "loss_function": "MAE",
+    "eval_metric": "MAE",
+    "random_seed": 42,
+    "allow_writing_files": false
+  },
+  "target_scale": 1000.0,
+  "features": [
+    "pickup",
+    "delivery",
+    "equipment",
+    "pickup_lat",
+    "pickup_lon",
+    "delivery_lat",
+    "delivery_lon",
+    "distance",
+    "weight",
+    "weight_was_missing",
+    "weight_was_invalid",
+    "weekday",
+    "market_index",
+    "market_index_was_missing",
+    "quote_signal"
+  ],
+  "categorical_features": [
+    "pickup",
+    "delivery",
+    "equipment",
+    "weekday"
+  ],
+  "prediction_rule": "Multiply model output by target_scale, then floor at 1 dollar."
+}

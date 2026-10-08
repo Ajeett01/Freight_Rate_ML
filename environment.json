@@ -1,0 +1,12 @@
+{
+  "python": "3.13.15",
+  "packages": {
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.0",
+    "scikit-learn": "1.6.1",
+    "scipy": "1.16.3",
+    "catboost": "1.2.10",
+    "reportlab": "5.0.1"
+  }
+}

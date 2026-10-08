@@ -1,0 +1,35 @@
+{
+  "parameters": {
+    "task_type": "GPU",
+    "devices": "0",
+    "depth": 6,
+    "learning_rate": 0.05,
+    "l2_leaf_reg": 5,
+    "loss_function": "RMSE",
+    "eval_metric": "MAE",
+    "random_seed": 42,
+    "allow_writing_files": false
+  },
+  "iterations": 425,
+  "target_scale": 1.0,
+  "features": [
+    "pickup",
+    "delivery",
+    "equipment",
+    "pickup_lat",
+    "pickup_lon",
+    "delivery_lat",
+    "delivery_lon",
+    "distance",
+    "weight",
+    "weight_was_missing",
+    "weight_was_invalid",
+    "weekday"
+  ],
+  "categorical_features": [
+    "pickup",
+    "delivery",
+    "equipment",
+    "weekday"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "parameters": {
+    "task_type": "GPU",
+    "devices": "0",
+    "depth": 6,
+    "learning_rate": 0.05,
+    "l2_leaf_reg": 5,
+    "loss_function": "MAE",
+    "eval_metric": "MAE",
+    "random_seed": 42,
+    "allow_writing_files": false
+  },
+  "target_scale": 1000.0,
+  "prediction_rule": "Multiply model output by target_scale, then floor at 1 dollar."
+}

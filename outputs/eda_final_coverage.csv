@@ -1,0 +1,4 @@
+condition,loads,percent_of_final_loads
+At least one previously unseen city,1447,12.06
+Previously unseen directional lane,1461,12.18
+Unseen lane between previously seen cities,14,0.12

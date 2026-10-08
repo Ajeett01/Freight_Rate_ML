@@ -1,0 +1,18 @@
+dataset,column,missing,unparseable,infinite,negative,zero
+development,pickup_lat,0,0,0,0,0
+development,pickup_lon,0,0,0,48000,0
+development,delivery_lat,0,0,0,0,0
+development,delivery_lon,0,0,0,48000,0
+development,distance,0,0,0,0,0
+development,weight,300,0,0,292,0
+development,market_index,374,0,0,0,0
+development,quote_signal,0,0,0,0,0
+development,posted_rate,0,0,0,0,0
+final inference,pickup_lat,0,0,0,0,0
+final inference,pickup_lon,0,0,0,12000,0
+final inference,delivery_lat,0,0,0,0,0
+final inference,delivery_lon,0,0,0,12000,0
+final inference,distance,0,0,0,0,0
+final inference,weight,165,0,0,145,0
+final inference,market_index,249,0,0,0,0
+final inference,quote_signal,0,0,0,0,0

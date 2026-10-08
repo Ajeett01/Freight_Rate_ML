@@ -1,0 +1,5 @@
+fold,purpose,train_start,train_end,eval_start,eval_end,train_rows,eval_rows
+fold_A,development,2025-01-01,2025-02-28,2025-03-01,2025-04-30,9255,9855
+fold_B,development,2025-01-01,2025-04-30,2025-05-01,2025-06-30,19110,9696
+fold_C,development,2025-01-01,2025-06-30,2025-07-01,2025-08-31,28806,9671
+reserved,reserved_model_comparison,2025-01-01,2025-08-31,2025-09-01,2025-10-31,38477,9523
