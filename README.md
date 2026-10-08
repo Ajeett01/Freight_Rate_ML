@@ -71,8 +71,4 @@ Optional core-model retraining is controlled by `RUN_RETRAINING` and `TRAIN_TASK
 
 Open `notebooks/freight_rate_prediction.ipynb` in Colab to inspect the complete exploration, baseline comparisons, CatBoost experiments, and diagnostics. This original history contains runtime switching, checkpoint restoration, and unsuccessful experiments with their corrections; it is not the streamlined fresh-runtime entry point. Use the concise notebook or standalone `solution.py` for the final execution path.
 
-## Submission
 
-Submit `validation_predictions.csv` and `freight_rate_report.pdf`, publish this repository, and add your own Loom link here:
-
-Loom: ADD_YOUR_LINK
